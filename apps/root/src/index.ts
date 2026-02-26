@@ -1,4 +1,5 @@
 import { inject } from '@vercel/analytics';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 import { mountVercelToolbar } from '@vercel/toolbar/vite';
 import { registerApplication, start } from 'single-spa';
 import './globals.css';
@@ -26,3 +27,4 @@ registerApplication(
 start();
 mountVercelToolbar();
 inject();
+injectSpeedInsights();
