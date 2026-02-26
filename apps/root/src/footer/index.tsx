@@ -16,7 +16,7 @@ function Footer(): React.JSX.Element {
                 src="/abstract-geometric-logo.png"
                 width="32"
               />
-              <span className="text-xl font-bold">Company</span>
+              <span className="text-xl font-bold">Rocela Durazo</span>
             </a>
             <p className="mt-4 max-w-xs text-muted-foreground">
               Empowering businesses with innovative solutions since 2010. Your
@@ -137,7 +137,7 @@ function Footer(): React.JSX.Element {
           </div>
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider">
-              Company
+              Rocela Durazo
             </h3>
             <ul className="space-y-2">
               {['About', 'Blog', 'Careers', 'Press', 'Partners'].map((item) => (

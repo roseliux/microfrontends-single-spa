@@ -20,7 +20,7 @@ export function MobileMenu({
               src="/abstract-geometric-logo.png"
               width="32"
             />
-            <span className="text-xl font-bold">Company</span>
+            <span className="text-xl font-bold">Rocela Durazo</span>
           </a>
           <button
             className="inline-flex h-9 items-center justify-center rounded-md p-2 text-muted-foreground hover:bg-muted hover:text-foreground"
@@ -76,20 +76,20 @@ export function MobileMenu({
             About
           </a>
           <div className="mt-4 flex flex-col gap-2">
-            <button
+            {/* <button
               className="inline-flex h-10 w-full items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-muted"
               onClick={onClose}
               type="button"
             >
               Log in
-            </button>
-            <button
+            </button> */}
+            {/* <button
               className="inline-flex h-10 w-full items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
               onClick={onClose}
               type="button"
             >
               Sign up
-            </button>
+            </button> */}
           </div>
         </nav>
       </div>

@@ -16,7 +16,7 @@ function Header(): React.JSX.Element {
             src="/abstract-geometric-logo.png"
             width="32"
           />
-          <span className="text-xl font-bold">Company</span>
+          <span className="text-xl font-bold">Rocela Durazo</span>
         </a>
         <nav className="hidden sm:flex gap-6 ">
           <a
