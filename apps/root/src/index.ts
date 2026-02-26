@@ -1,3 +1,4 @@
+import { inject } from '@vercel/analytics';
 import { mountVercelToolbar } from '@vercel/toolbar/vite';
 import { registerApplication, start } from 'single-spa';
 import './globals.css';
@@ -24,3 +25,4 @@ registerApplication(
 
 start();
 mountVercelToolbar();
+inject();
