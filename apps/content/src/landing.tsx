@@ -9,9 +9,9 @@ const EMAIL = 'hola@roceladurazo.mx';
 // Format: 52 + 10-digit number (no +, no spaces). Example: 526621234567
 const WHATSAPP_NUMBER = '52XXXXXXXXXX';
 
-function waLink(message: string) {
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
-}
+// function waLink(message: string) {
+//   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+// }
 
 function mailtoLink(subject: string, body: string) {
   return `mailto:${EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
@@ -21,13 +21,11 @@ function mailtoLink(subject: string, body: string) {
 
 function Landing(): React.JSX.Element {
   const onPrimaryCta = () => {
-    // window.open(
-    //   waLink(
-    //     'Hola Rocela, quiero automatizar tareas internas en mi negocio. ¿Podemos agendar un diagnóstico gratuito?'
-    //   ),
-    //   '_blank',
-    //   'noreferrer'
-    // );
+    window.open(
+      'https://calendly.com/roxdurazo',
+      '_blank',
+      'noreferrer'
+    );
   };
 
   const onSecondaryCta = () => {
@@ -374,9 +372,9 @@ Gracias.`
                   <h3 className="text-2xl font-bold">Starter</h3>
                   <div className="mt-4 flex items-baseline text-gray-900">
                     <span className="text-5xl font-extrabold tracking-tight">
-                      Desde
+                      {/* Desde */}
                     </span>
-                    <span className="ml-1 text-xl font-semibold">MXN</span>
+                    {/* <span className="ml-1 text-xl font-semibold">MXN</span> */}
                   </div>
                   <p className="mt-4 text-muted-foreground">
                     Ideal para automatizar 1 proceso clave.
