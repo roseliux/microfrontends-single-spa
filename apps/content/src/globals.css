@@ -27,3 +27,13 @@
 .shadow-sm {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
+
+/* Experience section links color */
+.experience-link {
+  color: #0ea5e9;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.experience-link:hover {
+  color: #0369a1;
+}

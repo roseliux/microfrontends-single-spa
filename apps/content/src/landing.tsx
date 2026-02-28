@@ -240,7 +240,6 @@ Gracias.`
                   Conecta herramientas existentes para evitar doble captura y trabajo duplicado.
                 </p>
               </div>
-
               <div className="flex flex-col items-start gap-2 rounded-lg border bg-background p-6 shadow-sm">
                 <div className="rounded-full bg-primary/10 p-2 text-primary">
                   <svg
@@ -744,170 +743,207 @@ Gracias.`
                 Sobre mí
               </h2>
               <p className="mx-auto mt-4 max-w-[700px] text-muted-foreground md:text-xl">
-                Soy Rocela Durazo. Implemento automatizaciones con IA para que tu operación sea más eficiente y escalable.
+                Soy Rocela Durazo, ingeniera full-stack con Licenciatura en Ciencias de la Computación y más de 10 años construyendo
+                software y liderando implementaciones tecnológicas en entornos de alto impacto.
               </p>
             </div>
 
             <div className="grid gap-12 md:grid-cols-2 lg:gap-16">
-              <div className="space-y-4">
-                <h3 className="text-2xl font-bold">Cómo trabajo</h3>
-                <p className="text-muted-foreground">
-                  Primero entiendo tu proceso y detecto oportunidades reales (no “IA por moda”).
-                  Después implemento una solución que se integra con tus herramientas actuales.
-                </p>
-                <p className="text-muted-foreground">
-                  Mi enfoque es práctico: automatizaciones que reduzcan tareas repetitivas, mejoren tiempos de respuesta
-                  y te den visibilidad con reportes claros.
-                </p>
+                    <div className="space-y-4">
 
-                <h3 className="text-2xl font-bold mt-8">Entregables</h3>
-                <p className="text-muted-foreground">
-                  Propuesta con alcance, implementación en producción, documentación y soporte para asegurar adopción.
-                </p>
-
-                <h3 className="text-2xl font-bold mt-8">Valores</h3>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li className="flex items-start">
-                    <svg
-                      className="size-5 text-primary mr-2 mt-0.5"
-                      fill="none"
-                      height="24"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m5 12 5 5L20 7" />
-                    </svg>
-                    <span>
-                      <strong>Claridad:</strong> comunicación directa y entregables definidos.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg
-                      className="size-5 text-primary mr-2 mt-0.5"
-                      fill="none"
-                      height="24"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m5 12 5 5L20 7" />
-                    </svg>
-                    <span>
-                      <strong>Resultados:</strong> foco en impacto y ROI.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg
-                      className="size-5 text-primary mr-2 mt-0.5"
-                      fill="none"
-                      height="24"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m5 12 5 5L20 7" />
-                    </svg>
-                    <span>
-                      <strong>Calidad:</strong> soluciones listas para producción, no solo prototipos.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg
-                      className="size-5 text-primary mr-2 mt-0.5"
-                      fill="none"
-                      height="24"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m5 12 5 5L20 7" />
-                    </svg>
-                    <span>
-                      <strong>Confianza:</strong> protección de datos y buenas prácticas.
-                    </span>
-                  </li>
-                </ul>
-              </div>
-
-              <div>
-                <div className="relative h-[400px] overflow-hidden rounded-lg">
-                  <img
-                    alt="Automatización de procesos"
-                    className="absolute inset-0 h-full w-full object-cover"
-                    src="team-photo.jpg"
-                  />
-                </div>
-
-                <div className="mt-12">
-                  <h3 className="text-2xl font-bold mb-6">Contacto</h3>
-                  <div className="grid gap-8 sm:grid-cols-2">
-                    <div className="flex flex-col items-center text-center">
-                      <img
-                        alt="Rocela Durazo"
-                        className="size-24 rounded-full object-cover mb-4"
-                        src="ceo-portrait.jpg"
-                      />
-                      <h4 className="text-lg font-bold">Rocela Durazo</h4>
-                      <p className="text-sm text-muted-foreground">
-                        Automatización & Implementación
+                      {/* NUEVA SECCIÓN — EXPERIENCIA */}
+                      <h3 className="text-2xl font-bold">Experiencia profesional</h3>
+                      <p className="text-muted-foreground">
+                        He trabajado en eCommerce, seguridad e infraestructura tecnológica
+                        desarrollando sistemas escalables y listos para producción.
                       </p>
+
+                      <ul className="space-y-2 text-muted-foreground">
+                        <li>
+                          <strong>Lead Software Engineer – <a href="https://greenflag.com.mx/" target="_blank" rel="noopener noreferrer" className="experience-link">Greenflag</a>:</strong> Arquitectura y
+                          desarrollo end-to-end con Ruby on Rails 8, React/TypeScript (Inertia + Vite),
+                          PostgreSQL (pgvector), Redis y Sidekiq. Integraciones con Stripe,
+                          Postmark y Twilio (SMS/WhatsApp).
+                        </li>
+                        <li>
+                          <strong>Software Engineer – <a href="https://ring.com/" target="_blank" rel="noopener noreferrer" className="experience-link">Ring (Amazon)</a>:</strong> Infraestructura
+                          crítica, on-call production, AWS (EC2, servicios cloud), PostgreSQL,
+                          Redis/ElastiCache y migraciones de datos.
+                        </li>
+                        <li>
+                          <strong>Back-End Engineer – <a href="https://bouqs.com/" target="_blank" rel="noopener noreferrer" className="experience-link">The Bouqs Company</a>:</strong> Desarrollo
+                          y optimización de plataforma eCommerce con Ruby on Rails,
+                          PostgreSQL, MongoDB y Docker.
+                        </li>
+                        <li>
+                          <strong>Freelance (Top Rated Plus – <a href="https://www.upwork.com/" target="_blank" rel="noopener noreferrer" className="experience-link">Upwork</a>):</strong> Implementación
+                          de plataformas y sistemas para clientes en US, México y LATAM.
+                        </li>
+                      </ul>
+
+                      {/* CÓMO TRABAJO */}
+                      <h3 className="text-2xl font-bold mt-8">Cómo trabajo</h3>
+                      <p className="text-muted-foreground">
+                        Primero entiendo tu proceso y detecto oportunidades reales (no “IA por moda”).
+                        Después diseño una solución que se integra con tus herramientas actuales
+                        y la dejo lista para producción.
+                      </p>
+                      <p className="text-muted-foreground">
+                        Mi enfoque es práctico: automatizaciones que reduzcan tareas repetitivas,
+                        mejoren tiempos de respuesta y te den visibilidad con reportes claros.
+                      </p>
+
+                      {/* ENTREGABLES */}
+                      <h3 className="text-2xl font-bold mt-8">Entregables</h3>
+                      <p className="text-muted-foreground">
+                        Diagnóstico estratégico, propuesta con alcance definido, implementación
+                        en producción, documentación técnica y soporte para asegurar adopción.
+                      </p>
+
+                      {/* VALORES */}
+                      <h3 className="text-2xl font-bold mt-8">Valores</h3>
+                      <ul className="space-y-2 text-muted-foreground">
+                        <li className="flex items-start">
+                          <svg
+                            className="size-5 text-primary mr-2 mt-0.5"
+                            fill="none"
+                            height="24"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="m5 12 5 5L20 7" />
+                          </svg>
+                          <span>
+                            <strong>Claridad:</strong> comunicación directa y entregables definidos.
+                          </span>
+                        </li>
+                        <li className="flex items-start">
+                          <svg
+                            className="size-5 text-primary mr-2 mt-0.5"
+                            fill="none"
+                            height="24"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="m5 12 5 5L20 7" />
+                          </svg>
+                          <span>
+                            <strong>Resultados:</strong> foco en impacto y ROI.
+                          </span>
+                        </li>
+                        <li className="flex items-start">
+                          <svg
+                            className="size-5 text-primary mr-2 mt-0.5"
+                            fill="none"
+                            height="24"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="m5 12 5 5L20 7" />
+                          </svg>
+                          <span>
+                            <strong>Calidad:</strong> soluciones listas para producción, no solo prototipos.
+                          </span>
+                        </li>
+                        <li className="flex items-start">
+                          <svg
+                            className="size-5 text-primary mr-2 mt-0.5"
+                            fill="none"
+                            height="24"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="m5 12 5 5L20 7" />
+                          </svg>
+                          <span>
+                            <strong>Confianza:</strong> protección de datos y buenas prácticas.
+                          </span>
+                        </li>
+                      </ul>
                     </div>
-                    <div className="flex flex-col items-center text-center">
-                      <img
-                        alt="Colaboradores por proyecto"
-                        className="size-24 rounded-full object-cover mb-4"
-                        src="cto-portrait.jpg"
-                      />
-                      <h4 className="text-lg font-bold">Red de especialistas</h4>
-                      <p className="text-sm text-muted-foreground">
-                        (según necesidad del proyecto)
-                      </p>
+
+                      <div>
+                        <div className="relative h-[400px] overflow-hidden rounded-lg">
+                          <img
+                            alt="Automatización de procesos"
+                            className="absolute inset-0 h-full w-full object-cover"
+                            src="team-photo.jpg"
+                          />
+                        </div>
+
+                        <div className="mt-12">
+                          <h3 className="text-2xl font-bold mb-6">Contacto</h3>
+                          <div className="grid gap-8 sm:grid-cols-2">
+                            <div className="flex flex-col items-center text-center">
+                              <img
+                                alt="Rocela Durazo"
+                                className="size-24 rounded-full object-cover mb-4"
+                                src="ceo-portrait.jpg"
+                              />
+                              <h4 className="text-lg font-bold">Rocela Durazo</h4>
+                              <p className="text-sm text-muted-foreground">
+                                Automatización & Implementación
+                              </p>
+                            </div>
+                            <div className="flex flex-col items-center text-center">
+                              <img
+                                alt="Colaboradores por proyecto"
+                                className="size-24 rounded-full object-cover mb-4"
+                                src="cto-portrait.jpg"
+                              />
+                              <h4 className="text-lg font-bold">Red de especialistas</h4>
+                              <p className="text-sm text-muted-foreground">
+                                (según necesidad del proyecto)
+                              </p>
+                            </div>
+                          </div>
+
+                          <div className="mt-8 flex flex-col gap-2 min-[400px]:flex-row justify-center">
+                            <button
+                              className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+                              type="button"
+                              onClick={onPrimaryCta}
+                            >
+                              Diagnóstico gratis
+                            </button>
+                            <button
+                              className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-muted"
+                              type="button"
+                              onClick={onSecondaryCta}
+                            >
+                              Escribirme por correo
+                            </button>
+                          </div>
+
+                          <p className="mt-6 text-center text-sm text-muted-foreground">
+                            Email: <a className="font-medium text-primary hover:underline" href={`mailto:${EMAIL}`}>{EMAIL}</a> •
+                            Sitio: <a className="font-medium text-primary hover:underline" href={SITE_URL}>{SITE_URL}</a>
+                          </p>
+
+                        </div>
+                      </div>
                     </div>
                   </div>
-
-                  <div className="mt-8 flex flex-col gap-2 min-[400px]:flex-row justify-center">
-                    <button
-                      className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
-                      type="button"
-                      onClick={onPrimaryCta}
-                    >
-                      Diagnóstico gratis
-                    </button>
-                    <button
-                      className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-muted"
-                      type="button"
-                      onClick={onSecondaryCta}
-                    >
-                      Escribirme por correo
-                    </button>
-                  </div>
-
-                  <p className="mt-6 text-center text-sm text-muted-foreground">
-                    Email: <a className="font-medium text-primary hover:underline" href={`mailto:${EMAIL}`}>{EMAIL}</a> •
-                    Sitio: <a className="font-medium text-primary hover:underline" href={SITE_URL}>{SITE_URL}</a>
-                  </p>
-
-                </div>
-              </div>
-            </div>
-          </div>
         </section>
 
         {/* CTA Section */}
